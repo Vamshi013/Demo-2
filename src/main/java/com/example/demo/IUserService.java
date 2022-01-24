@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class IUserService {
 	@Autowired //DI
-    UserRepository userRepository;
+    CustomerRepository userRepository;
 	public void saveUser(User user) {
 		userRepository.save(user);
 		// TODO Auto-generated method stub
